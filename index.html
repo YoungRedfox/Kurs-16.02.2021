@@ -8,40 +8,45 @@
 </head>
 <body>
     <div class="section">
-        <input type="text" value="0" class="result" name="">
+        <input type="text" placeholder="0" value="" class="result" name="result">
     </div>
     <div class="grid section">
         <div class="container">
-            <button class="btn">%</button>
-            <button class="btn">CE</button>
-            <button class="btn">C</button>
-            <button class="btn">&lt;&lt;</button>
+            <input type="button" value="%" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="CE" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="&lt;&lt;" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value=" / " class="btn" onclick="getValueAndChangeInput(value)">
         </div>
         <div class="container">
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn">*</button>
+            <input type="button" value="7" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="8" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="9" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value=" * " class="btn" onclick="getValueAndChangeInput(value)">
         </div>
         <div class="container">
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn">-</button>
+            <input type="button" value="4" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="5" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="6" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value=" - " class="btn" onclick="getValueAndChangeInput(value)">
         </div>
         <div class="container">
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn">+</button>
+            <input type="button" value="1" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="2" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="3" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value=" + " class="btn" onclick="getValueAndChangeInput(value)">
         </div>
         <div class="container">
-            <button class="btn">+/-</button>
-            <button class="btn">0</button>
-            <button class="btn">,</button>
-            <button class="btn">=</button>
+            <input type="button" value="+/-" class="btn" onclick="changeSympol()">
+            <input type="button" value="0" class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="." class="btn" onclick="getValueAndChangeInput(value)">
+            <input type="button" value="=" class="btn" onclick="resultCalc()">
         </div>
     </div>    
+
+    <!-- <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text"> -->
 
     <script src="main.js"></script>
 

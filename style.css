@@ -35,7 +35,7 @@ body {
     background-color: #47668d;
 }
 
-button.btn:focus {
+.btn:focus {
     outline: none;
 }
 
