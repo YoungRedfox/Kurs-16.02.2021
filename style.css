@@ -1,14 +1,12 @@
-.btn {
-    background-color: #4CAF50;  
-    border: none;   
-    color: white;  
-    padding: 15px 32px;   
-    text-align: center;   
-    text-decoration: none;   
-    display: inline-block;   
-    font-size: 16px;
-    margin: 5px;
-    min-width: 87px;
+body {
+    margin-top: 160px;
+}
+
+.section {
+    max-width: 400px;
+    margin: auto;
+    background-color: lightgrey;
+    padding: 10px;
 }
 
 .result{
@@ -19,7 +17,25 @@
     text-align: right;
 }
 
-.section {
-    max-width: 400px;
-    margin: auto;
+.btn {
+    background-color: #4c78af;  
+    border: none;   
+    color: white;  
+    padding: 15px 32px;   
+    text-align: center;   
+    text-decoration: none;   
+    display: inline-block;   
+    font-size: 16px;
+    margin: 5px;
+    min-width: 87px;
+    cursor: pointer;
 }
+
+.btn:hover {
+    background-color: #47668d;
+}
+
+button.btn:focus {
+    outline: none;
+}
+
